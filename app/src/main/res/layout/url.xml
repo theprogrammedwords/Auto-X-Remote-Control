@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <EditText
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_weight="0.4"
+        android:background="@drawable/highlight"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:drawablePadding="10dp"
+        android:hint="Enter the URL"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/urlButton"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.3"
+        android:background="@drawable/highlighbold"
+        android:text="SEARCH"
+        android:textSize="20sp" />
+
+</LinearLayout>

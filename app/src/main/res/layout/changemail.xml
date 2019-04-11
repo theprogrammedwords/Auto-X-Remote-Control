@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_weight="5"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="AUTO-X"
+        android:textColor="#FFFF"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="20dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/highlight"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:hint="Enter old Secondary mail" />
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/highlight"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter New Secondary mail"
+        android:layout_weight="0.5"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/highlighbold"
+        android:layout_marginBottom="30dp"
+        android:text="Submit"/>
+</LinearLayout>

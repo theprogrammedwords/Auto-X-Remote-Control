@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="5"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="AUTO-X"
+        android:textColor="#FFFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/highlight"
+        android:ems="10"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:hint="Enter Mail ID"
+        android:layout_weight="0.4"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:background="@drawable/highlight"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:drawablePadding="5dp"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_marginTop="30dp"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_weight="0.02"
+        android:background="#FFFF" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_gravity="start"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/highlighbold"
+            android:text="SIGN IN"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_gravity="start"
+            android:background="@drawable/highlighbold"
+            android:text="SIGN UP"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</LinearLayout>
